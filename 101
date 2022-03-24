@@ -1,0 +1,1 @@
+UPDATE worker SET salary = salary+15  WHERE Department IN (SELECT Department FROM worker WHERE Department = 'admin');
